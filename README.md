@@ -17,6 +17,8 @@ fun isPPGSupported(): Boolean{
 
 
 ### 추가 2. PpgMeasurement.kt,  PpgTrackerListener.kt 파일 새로 작성
+- PpgMeasurement.kt : PPG 데이터 클래스 정의
+- PpgTrackerListener.kt: PPG 데이터 받고 저장 및 값 로그로 찍기
 
 ### 추가 3.model/di/AppModule
 ```kotlin
