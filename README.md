@@ -16,7 +16,7 @@ fun isPPGSupported(): Boolean{
 삼성 헬스 문서에 PPG 지원 확인법 PPG_ON_DEMAND로 나와 있음.  
 > 참고로 ACC 지원 여부도 확인 가능. 위 사진에 나와 있음.  
   
-
+<br> 
 
 ### 추가 2. PpgMeasurement.kt,  PpgTrackerListener.kt 파일 새로 작성
 - PpgMeasurement.kt : PPG 데이터 클래스 정의
@@ -28,7 +28,7 @@ fun isPPGSupported(): Boolean{
 > ![image](https://github.com/user-attachments/assets/e33f5197-5d50-4111-8357-65a53c8bf038)
 
   
-
+<br>
 
 ### 추가 3.model/di/AppModule
 ```kotlin
