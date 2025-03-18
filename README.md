@@ -19,10 +19,12 @@ fun isPPGSupported(): Boolean{
 ### 추가 2. PpgMeasurement.kt,  PpgTrackerListener.kt 파일 새로 작성
 - PpgMeasurement.kt : PPG 데이터 클래스 정의
 - PpgTrackerListener.kt: PPG 데이터 받고 저장 및 값 로그로 찍기
-
+  
 > 참고 정보:
-> [카이스트랩 코드](https://github.com/Kaist-ICLab/android-tracker/blob/085d74019af84b633a111af4b8d6d5bbcaa61c37/tracker-library/src/main/java/kaist/iclab/tracker/sensor/galaxywatch/PPGSensor.kt#L62)
+> [카이스트랩 코드](https://github.com/Kaist-ICLab/android-tracker/blob/085d74019af84b633a111af4b8d6d5bbcaa61c37/tracker-library/src/main/java/kaist/iclab/tracker/sensor/galaxywatch/PPGSensor.kt#L62)  
 > ![image](https://github.com/user-attachments/assets/e33f5197-5d50-4111-8357-65a53c8bf038)
+
+  
 
 
 ### 추가 3.model/di/AppModule
