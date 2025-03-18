@@ -6,6 +6,8 @@
 <br> <br>
 
 ### 추가 1. model/HealthServiceManager.kt(43~47line)
+[링크](https://github.com/pmj-chosim/WearOS_Try/blob/main/wear/model/HealthServiceManager.kt)
+  
 ```kotlin
 //추가추가추가추가 PPG 지원여부 확인 메소스
 fun isPPGSupported(): Boolean{
