@@ -33,6 +33,7 @@ fun isPPGSupported(): Boolean{
 <br>
 
 ### 추가 3.model/di/AppModule
+[di/AppModule.kt](https://github.com/pmj-chosim/WearOS_Try/blob/main/wear/model/di/AppModule.kt)
 ```kotlin
     @Provides
     @Singleton
