@@ -12,8 +12,9 @@ fun isPPGSupported(): Boolean{
    return capability.supportHealthTrackerTypes.contains(HealthTrackerType.PPG_ON_DEMAND)
 ```
 ![image](https://github.com/user-attachments/assets/b36d7ef0-3ae3-40e3-852d-3ae7cd5fde2f)  
-삼성 헬스 문서에 PPG 지원 확인법 PPG_ON_DEMAND로 나와있음.
-
+삼성 헬스 문서에 PPG 지원 확인법 PPG_ON_DEMAND로 나와 있음.  
+> 참고로 ACC 지원 여부도 확인 가능. 위 사진에 나와 있음.  
+  
 
 
 ### 추가 2. PpgMeasurement.kt,  PpgTrackerListener.kt 파일 새로 작성
