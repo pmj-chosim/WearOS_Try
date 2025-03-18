@@ -1,6 +1,6 @@
 # WearOS_Try
 
- ! `C:~\Sleeping\Sleeping\wear\src\main\java\com\dacslab\android\sleeping\wear` 내부 파일 수정함. 해당 경로 안의 파일들을 수정한 것!
+ ! `C:~\Sleeping\Sleeping\wear\src\main\java\com\dacslab\android\sleeping\wear\model` 내부 파일 수정함. 해당 경로 안의 파일들을 수정한 것!
 
 ---
 <br> <br>
