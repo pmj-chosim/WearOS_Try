@@ -52,6 +52,8 @@ fun isPPGSupported(): Boolean{
 <br>
 
 
+--- 
+
 wear 코드 관련 추가 참고 사항이 필요할 시
 [참고](https://docs.google.com/document/d/1Pscza2ya4whP6zy3GDtIvgyv-L02UGgF80bUyyWoGGo/edit?usp=sharing) 가능.
 
