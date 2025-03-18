@@ -2,6 +2,8 @@
 
  `! C:~\Sleeping\Sleeping\wear\src\main\java\com\dacslab\android\sleeping\wear` 내부 파일 수정함. 해당 경로 안의 파일들을 수정한 것!
 
+---
+
 ### 추가 1. model/HealthServiceManager.kt(43~47line)
 ```kotlin
 //추가추가추가추가 PPG 지원여부 확인 메소스
