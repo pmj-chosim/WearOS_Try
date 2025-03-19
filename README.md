@@ -14,7 +14,8 @@ fun isPPGSupported(): Boolean{
    val capability = healthTrackingService?.trackingCapability ?: return false
    return capability.supportHealthTrackerTypes.contains(HealthTrackerType.PPG_ON_DEMAND)
 ```
-![image](https://github.com/user-attachments/assets/b36d7ef0-3ae3-40e3-852d-3ae7cd5fde2f)  
+![image](https://github.com/user-attachments/assets/b24d34b1-2802-4379-bbc2-bae0a71588f3)  
+
 삼성 헬스 문서에 PPG 지원 확인법 PPG_ON_DEMAND로 나와 있음.  
 > 참고로 ACC 지원 여부도 확인 가능. 위 사진에 나와 있음.  
   
