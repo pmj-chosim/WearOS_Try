@@ -40,9 +40,14 @@ class HealthServiceManager(
         return capability.supportHealthTrackerTypes.contains(HealthTrackerType.ECG_ON_DEMAND)
     }
 
-    //추가추가추가추가 PPG 지원여부 확인 메소스
+    //추가추가추가추가 PPG 지원여부 확인 메소스 PPG_DEMAND -> PPG_CONTINUOUS
     fun isPPGSupported(): Boolean{
         val capability = healthTrackingService?.trackingCapability ?: return false
-        return capability.supportHealthTrackerTypes.contains(HealthTrackerType.PPG_ON_DEMAND)
+        return capability.supportHealthTrackerTypes.contains(HealthTrackerType.PPG_CONTINUOUS)
+    }
+    //추가
+    fun isAACSupported(): Boolean{
+        val capability = healthTrackingService?.trackingCapability ?: return false
+        return capability.supportHealthTrackerTypes.contains(HealthTrackerType.ACCELEROMETER_CONTINUOUS)
     }
 }
