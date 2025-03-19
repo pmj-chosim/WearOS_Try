@@ -16,8 +16,8 @@ fun isPPGSupported(): Boolean{
 ```
 ![image](https://github.com/user-attachments/assets/b24d34b1-2802-4379-bbc2-bae0a71588f3)  
 
-삼성 헬스 문서에 PPG 지원 확인법 PPG_ON_DEMAND로 나와 있음.  
-> 참고로 ACC 지원 여부도 확인 가능. 위 사진에 나와 있음.  
+삼성 헬스 문서에 PPG 지원 확인법 PPG_ON_DEMAND / PPG_CONTINUOUS 로 나와 있음.  
+ACC는 ACCELEROMETER_CONTINUOUS로 나와 있음
   
 <br> 
 
