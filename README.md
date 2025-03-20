@@ -9,12 +9,28 @@
 [HealthServiceManager.kt](https://github.com/pmj-chosim/WearOS_Try/blob/main/wear/model/HealthServiceManager.kt)
   
 ```kotlin
-//추가추가추가추가 PPG 지원여부 확인 메소스
-fun isPPGSupported(): Boolean{
-   val capability = healthTrackingService?.trackingCapability ?: return false
-   return capability.supportHealthTrackerTypes.contains(HealthTrackerType.PPG_ON_DEMAND)
+//추가 #Feature: PPG_Green Support 여부, PPG는 디멘드랑 컨티뉴어스 둘 다 확인해 줘야 함
+    fun isPPG_Green_Supported(): Boolean{
+        val capability = healthTrackingService?.trackingCapability ?: return false
+        return capability.supportHealthTrackerTypes.contains(HealthTrackerType.PPG_CONTINUOUS)
+    }
+    // 추가 #Feature: PPG_IR, PPG_Red Support 여부
+    fun isPPG_Green_Supported(): Boolean{
+        val capability = healthTrackingService?.trackingCapability ?: return false
+        return capability.supportHealthTrackerTypes.contains(HealthTrackerType.PPG_ON_DEMAND)
+    }
+    //추가 #Feature: ACC Support 여부
+    fun isAACSupported(): Boolean{
+        val capability = healthTrackingService?.trackingCapability ?: return false
+        return capability.supportHealthTrackerTypes.contains(HealthTrackerType.ACCELEROMETER_CONTINUOUS)
+    }
 ```
-![image](https://github.com/user-attachments/assets/b24d34b1-2802-4379-bbc2-bae0a71588f3)  
+
+
+ ![image](https://github.com/user-attachments/assets/8c08837c-e521-47e2-9715-59882d5835fd)  
+ ![image](https://github.com/user-attachments/assets/ff66aeac-2558-442a-a420-3dad09f47d35)  
+
+
 
 삼성 헬스 문서에 PPG 지원 확인법 PPG_ON_DEMAND / PPG_CONTINUOUS 로 나와 있음.  
 ACC는 ACCELEROMETER_CONTINUOUS로 나와 있음
